@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             FiftyTwoWeeksChallengeTheme {
                 val viewModel = viewModel<CalculatorViewModel>()
                 val state = viewModel.state
-                val buttonSpacing = 8.dp
+                val buttonSpacing = 10.dp
             }
         }
     }
